@@ -1,0 +1,54 @@
+$date
+	Fri May 10 23:00:59 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module minority_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 ! Y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+1!
+$end
+#20
+1$
+#40
+1#
+0$
+#60
+0!
+1$
+#80
+1!
+1"
+0#
+0$
+#100
+0!
+1$
+#120
+1#
+0$
+#140
+1$
+#160
